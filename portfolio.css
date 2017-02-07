@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Pangolin');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Open+Sans|Pacifico|Pangolin');
+*{
+    margin:0;
+    font-size:16px;
+}
+section.section1{
+    width:100vw;
+    height:100vh;
+    background-image:url(background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+div#nav-bar{        
+    float:right;
+}
+ul{
+    align-content: center;
+}
+li{
+    vertical-align: center;
+    display:inline-block;
+    padding:10px;
+}
+li a{
+    color:white;
+    font-size:16px;
+    font-weight:bold;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+div#nav-bar li:hover{
+    background:rgb(34, 49, 63);
+    transition:all .5s ease-in-out;
+}
+div.center-content{
+    margin-top:20%;
+    position:absolute;
+    margin-left:35%;
+    color:rgb(255,255,255);
+}
+div.center-content p a{
+    color:white;
+    font-weight:bold;
+}
+div.center-content h1{
+    font-size:50px;
+    margin-bottom:10px;
+    font-family:'Pangolin', cursive;
+}
+div.center-content h2{
+    font-size:20px;
+    font-family: 'Pangolin', cursive;
+}
+section.section-2{
+    margin-top:10px;
+    background:rgb(255,255,255);
+    width:100vw;
+    line-height: 1.5em;
+    color:#2D3B40;
+    text-align: left;
+}
+section.section-2 p{
+    font-weight:bold;
+    color:#2D3B40;
+    font-size:18px;
+    padding:10px;
+    width:60%;
+    text-align:left;
+    
+}
+p.no-1:first-letter{ 
+  color:#2c3e50;
+  font-size:500%;
+}
+div.design{
+    margin:20px;
+}
+h1.beauty{
+    font-size:500%;
+    font-family: 'Dancing Script', cursive;
+    padding:10px;
+}
+footer{
+    height:30vh;
+    width:100vw;
+    position:absolute;
+    color:grey;
+}
+.about{
+    float:left;
+    width:30%;
+    margin:0 10%;
+    text-align:left;
+}
+
+.contact{
+    float:right;
+    width:30%;
+    margin:0 10%;
+    text-align:left;
+}
+footer li a{
+    color:grey;
+    font-weight:bold;
+    text-decoration:underline;
+}
